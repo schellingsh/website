@@ -3,31 +3,33 @@ const App = () => {
     <main className="wrap">
       <section className="hero">
         <div className="brand">schelling.sh</div>
+        <h1>
+          <span className="pink">identify previous thought.</span>
+          <br />
+          <span className="cyan">keep what mattered.</span>
+          <br />
+          <span className="lime">make the next time easier.</span>
+        </h1>
         <div className="hero-lockup">
-          <h1>
-            <span className="pink">identify previous thought.</span>
-            <br />
-            <span className="cyan">keep what mattered.</span>
-            <br />
-            <span className="lime">make the next time easier.</span>
-          </h1>
+          <div>
+            <p className="lead">
+              schelling.sh is a{" "}
+              <span className="strong">
+                shared problem-memory and defaulting layer
+              </span>{" "}
+              that helps teams and agents identify previous thought before they
+              start from zero.
+            </p>
+            <p className="sublead">
+              AI is making individuals much faster alone, but useful thought still
+              dies in private chats, one-off Claude/Cursor sessions, Slack threads,
+              local certainty, and scattered docs. Even when a team has already
+              thought about something nearby, the next person often cannot identify
+              that prior thought in time to benefit from it.
+            </p>
+          </div>
           <img src="/logo.svg" alt="schelling.sh logo" className="hero-logo" />
         </div>
-        <p className="lead">
-          schelling.sh is a{" "}
-          <span className="strong">
-            shared problem-memory and defaulting layer
-          </span>{" "}
-          that helps teams and agents identify previous thought before they
-          start from zero.
-        </p>
-        <p className="sublead">
-          AI is making individuals much faster alone, but useful thought still
-          dies in private chats, one-off Claude/Cursor sessions, Slack threads,
-          local certainty, and scattered docs. Even when a team has already
-          thought about something nearby, the next person often cannot identify
-          that prior thought in time to benefit from it.
-        </p>
       </section>
 
       <section className="grid">
