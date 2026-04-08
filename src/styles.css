@@ -251,7 +251,6 @@ pre {
   }
 
   .hero-logo {
-    width: 120px;
-    height: 120px;
+    display: none;
   }
 }
