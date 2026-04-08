@@ -1,5 +1,27 @@
-# hello-static
+# schelling.sh website
 
-An example static website repository you can use to deploy a static site on Fly.io, using nginx.
+React single-page site built with Vite and served as static files.
 
-Used by the guide at https://fly.io/docs/getting-started/static/
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+## Production build
+
+```bash
+npm run build
+```
+
+This outputs static files in `dist/`.
+
+## Docker
+
+```bash
+docker build -t schelling-website .
+docker run --rm -p 8080:80 schelling-website
+```
+
+The Docker image runs a multi-stage build (`npm run build`) and serves `dist/` with nginx.
