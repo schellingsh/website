@@ -53,6 +53,18 @@ body {
   font-weight: 700;
 }
 
+.hero-lockup {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.hero-logo {
+  width: 220px;
+  height: 220px;
+  flex-shrink: 0;
+}
+
 h1 {
   margin: 0 0 18px;
   font-size: clamp(44px, 9vw, 88px);
@@ -228,5 +240,16 @@ pre {
 
   .hero {
     padding-top: 24px;
+  }
+
+  .hero-lockup {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .hero-logo {
+    width: 120px;
+    height: 120px;
   }
 }

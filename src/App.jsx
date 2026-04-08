@@ -3,13 +3,16 @@ const App = () => {
     <main className="wrap">
       <section className="hero">
         <div className="brand">schelling.sh</div>
-        <h1>
-          <span className="pink">identify previous thought.</span>
-          <br />
-          <span className="cyan">keep what mattered.</span>
-          <br />
-          <span className="lime">make the next time easier.</span>
-        </h1>
+        <div className="hero-lockup">
+          <h1>
+            <span className="pink">identify previous thought.</span>
+            <br />
+            <span className="cyan">keep what mattered.</span>
+            <br />
+            <span className="lime">make the next time easier.</span>
+          </h1>
+          <img src="/logo.svg" alt="schelling.sh logo" className="hero-logo" />
+        </div>
         <p className="lead">
           schelling.sh is a{" "}
           <span className="strong">
