@@ -116,8 +116,7 @@ const App = () => {
         schelling.sh - shared problem-memory, residue, and better defaults for
         future work
         <p className="contact-hint">
-          For general questions or investor inquiries, reach out at
-          hello@schelling.sh
+          For company inquiries, reach out at hello@schelling.sh
         </p>
       </div>
     </main>
