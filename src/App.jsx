@@ -4,7 +4,7 @@ const App = () => {
       <section className="hero">
         <div className="brand">schelling.sh</div>
         <h1>
-          <span className="pink">post the problem.</span>
+          <span className="pink">identify previous thought.</span>
           <br />
           <span className="cyan">keep what mattered.</span>
           <br />
@@ -13,107 +13,101 @@ const App = () => {
         <p className="lead">
           schelling.sh is a{" "}
           <span className="strong">
-            shared problem-memory and residue layer
+            shared problem-memory and defaulting layer
           </span>{" "}
-          for teams and agents.
+          that helps teams and agents identify previous thought before they
+          start from zero.
         </p>
         <p className="sublead">
-          It helps you identify previous thought, keep the reusable part of
-          what was learned, and stop solving recurring problems from zero. A
-          problem becomes a durable object. Useful follow-ups become{" "}
-          <span className="orange">residue</span>. Future humans and agents
-          inherit better defaults, warnings, and prior cases.
+          AI is making individuals much faster alone, but useful thought still
+          dies in private chats, one-off Claude/Cursor sessions, Slack threads,
+          local certainty, and scattered docs. Even when a team has already
+          thought about something nearby, the next person often cannot identify
+          that prior thought in time to benefit from it.
         </p>
       </section>
 
       <section className="grid">
         <div className="card">
-          <h2>What this is about</h2>
-          <p>
-            AI is making individuals faster alone, but useful thought still
-            dies in private chats, scattered notes, old threads, and local
-            certainty. schelling.sh exists to preserve the part that future
-            minds should not have to rediscover.
-          </p>
+          <h2>How it works</h2>
           <p>The core loop is simple:</p>
           <div className="steps">
             <div className="step">
               <b>1. Post a problem</b>
               <br />
               Turn a real issue, need, or recurring question into a durable
-              object.
+              object with a stable handle, rough classification, current best
+              default path, key risks, and related prior cases.
             </div>
             <div className="step">
               <b>2. Identify previous thought</b>
               <br />
-              Surface similar prior cases, defaults, risks, and useful
-              lineages.
+              Surface what similar problems existed before, what prior thinking
+              is relevant, what warnings were already discovered, what paths
+              were already tried, and what old residue should be inherited.
             </div>
             <div className="step">
               <b>3. Add residue</b>
               <br />
-              Keep the reusable learning: root cause, chosen path, warning,
-              anti-pattern, outcome, or summary.
+              Keep the reusable part of what was learned: root cause, chosen
+              path, warning, reframing, dead end worth avoiding, useful summary,
+              outcome, or what actually mattered.
             </div>
             <div className="step">
               <b>4. Reuse later</b>
               <br />
-              Make the next similar problem easier, faster, and less wrong.
+              The second similar problem should be easier because the first one
+              was captured well.
             </div>
           </div>
           <p className="top-gap">
             <span className="strong">Residue</span> is the reusable part of
-            solving a problem that is worth not paying for twice.
+            previous thought — worth not paying for twice.
           </p>
-          <ul>
-            <li>root cause</li>
-            <li>chosen path</li>
-            <li>warning or anti-pattern</li>
-            <li>best next step</li>
-            <li>useful summary</li>
-            <li>outcome</li>
-          </ul>
         </div>
 
         <div className="card">
-          <h2>Install the skill</h2>
+          <h2>How you use it</h2>
           <p>Install the skill into your agent environment:</p>
           <pre>npx skills add -g schellingsh/skill</pre>
           <p className="top-gap">
-            Then use the command inside Claude, Cursor, or Codex:
+            Use <span className="strong">/schelling</span> to confirm
+            installation. After that, it works in the background. When your
+            agent hits a recurring problem, it checks for relevant previous
+            thought. When something useful is learned, it sends residue back
+            so the next encounter starts from a better place.
           </p>
-          <pre>/schelling</pre>
-          <p className="top-gap">
-            A good first use is to post a real recurring problem, then follow
-            up later with the residue once you understand what mattered.
-          </p>
-          <p>The skill is meant for:</p>
+          <p>It is meant for:</p>
           <ul>
-            <li>AI-heavy builders and teams</li>
-            <li>engineering and ops problems</li>
-            <li>repeated debugging, review, and design questions</li>
+            <li>AI-heavy teams using Claude, Cursor, or coding agents</li>
+            <li>recurring engineering and ops problems</li>
+            <li>repeated &ldquo;have we already thought about this?&rdquo; questions</li>
             <li>
-              cases where the best next step matters more than a perfect answer
+              cases where the best next step depends on identifying the right
+              prior case quickly
             </li>
           </ul>
         </div>
       </section>
 
       <section className="card section-top">
-        <h2>Why it matters</h2>
+        <h2>The core value</h2>
         <p>
-          <span className="strong">AI agents make individuals faster alone.</span>{" "}
-          schelling.sh helps teams and agents stop re-solving recurring problems
-          from zero.
+          <span className="strong">
+            Before solving a problem, you should be able to identify what has
+            already been thought nearby.
+          </span>
         </p>
         <p>
-          It is not mainly about storing everything. It is about preserving the
-          part of previous thought that should shape future action.
+          The second similar problem should be easier because the first one was
+          captured well. It is not mainly about keeping everything. It is about
+          helping humans and agents identify the right previous thought at the
+          right time.
         </p>
       </section>
 
       <div className="footer">
-        schelling.sh - shared problem-memory, residue, and better defaults for
+        schelling.sh — shared problem-memory, residue, and better defaults for
         future work
         <p className="contact-hint">
           For company inquiries, reach out at hello@schelling.sh

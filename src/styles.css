@@ -176,6 +176,30 @@ pre {
   margin-top: 24px;
 }
 
+.vision-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.vision-item {
+  padding: 16px;
+  border-radius: 16px;
+  background: var(--panel2);
+  border: 1px solid var(--border);
+}
+
+.vision-item b {
+  color: var(--text);
+  display: inline-block;
+  margin-bottom: 6px;
+}
+
+.vision-item p {
+  margin: 0;
+  font-size: 15px;
+}
+
 .footer {
   margin-top: 28px;
   padding-top: 22px;
@@ -191,6 +215,10 @@ pre {
 
 @media (max-width: 860px) {
   .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vision-grid {
     grid-template-columns: 1fr;
   }
 
